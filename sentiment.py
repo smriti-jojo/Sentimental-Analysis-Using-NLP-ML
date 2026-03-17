@@ -4,6 +4,8 @@ import pandas as pd
 import emoji
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
+import nltk
+nltk.download("punkt")
 
 st.set_page_config(page_title="Sentiment Analysis Web App",layout="centered")
 @st.cache_data
