@@ -3,4 +3,4 @@ textblob
 pandas
 emoji
 beautifulsoup4
-nltk
+
